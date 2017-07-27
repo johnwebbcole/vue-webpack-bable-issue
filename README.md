@@ -2,6 +2,11 @@
 
 > A Vue.js project
 
+This project loads [pretty-bytes](https://github.com/sindresorhus/pretty-bytes) via npm and displays 10M in the sample `Hello` component.
+
+The default webpack build is not transpiling the `pretty-bytes` code and it fails on IE 11.
+
+
 ## Build Setup
 
 ``` bash
